@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CognitionIQ — The Future of Brain Health</title>
+  <meta name="description" content="CognitionIQ is building the next generation of objective cognitive measurement systems using oculometric eye-tracking technology." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23c0392b'/><circle cx='50' cy='50' r='25' fill='%231a56db'/><circle cx='50' cy='50' r='10' fill='white'/></svg>" />
+</head>
+<body>
+
+<!-- ══════════════════ NAV ══════════════════ -->
+<nav>
+  <div class="nav-inner">
+    <a class="logo" data-page="home" href="#">
+      <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+        <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+        <circle cx="14" cy="14" r="3" fill="white"/>
+        <line x1="14" y1="1" x2="14" y2="5" stroke="#c0392b" stroke-width="1.5"/>
+        <line x1="14" y1="23" x2="14" y2="27" stroke="#c0392b" stroke-width="1.5"/>
+        <line x1="1" y1="14" x2="5" y2="14" stroke="#c0392b" stroke-width="1.5"/>
+        <line x1="23" y1="14" x2="27" y2="14" stroke="#c0392b" stroke-width="1.5"/>
+      </svg>
+      Cognition<span class="accent">IQ</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#" data-page="home">Home</a></li>
+      <li><a href="#" data-page="how-it-works">How It Works</a></li>
+      <li><a href="#" data-page="our-story">Our Story</a></li>
+      <li><a href="#" data-page="newsletter">Newsletter</a></li>
+      <li><a href="#" data-page="contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+
+    <div class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ══════════════════ HOME PAGE ══════════════════ -->
+<div class="page" id="home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">Next-Generation Neurotechnology</div>
+        <h1>The Future of<br><em>Brain</em> Health</h1>
+        <p>CognitionIQ is building the next generation of objective cognitive measurement systems — powered by oculometric science and engineered for the real world.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" data-page="how-it-works">See How It Works →</button>
+          <button class="btn-secondary" data-page="contact">Get in Touch</button>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="eye-container">
+          <div class="eye-ring eye-ring-1"></div>
+          <div class="eye-ring eye-ring-2"></div>
+          <div class="eye-ring eye-ring-3"></div>
+          <div class="eye-core">
+            <div class="eye-pupil"></div>
+          </div>
+          <div class="eye-scan-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="stats-bar">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <div class="stat-num">5<span>–</span>10</div>
+        <div class="stat-label">Minute Assessment</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-num">100<span>%</span></div>
+        <div class="stat-label">Objective Data</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-num">5<span>+</span></div>
+        <div class="stat-label">Application Sectors</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-num">0</div>
+        <div class="stat-label">Subjective Reporting</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technology -->
+  <section class="tech-section">
+    <div class="container">
+      <div class="tech-grid">
+        <div class="tech-visual fade-up">
+          <div class="tech-img-wrapper">
+            <!-- Placeholder eye image via SVG -->
+            <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;background:#0a0d14;">
+              <defs>
+                <radialGradient id="eg1" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#1a2540"/>
+                  <stop offset="100%" stop-color="#050710"/>
+                </radialGradient>
+                <radialGradient id="eg2" cx="40%" cy="35%" r="50%">
+                  <stop offset="0%" stop-color="#3b82f6"/>
+                  <stop offset="60%" stop-color="#1a56db"/>
+                  <stop offset="100%" stop-color="#0d1220"/>
+                </radialGradient>
+              </defs>
+              <!-- Eye shape -->
+              <ellipse cx="300" cy="200" rx="260" ry="140" fill="url(#eg1)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+              <!-- Iris -->
+              <circle cx="300" cy="200" r="90" fill="url(#eg2)"/>
+              <!-- Pupil -->
+              <circle cx="300" cy="200" r="40" fill="#050710"/>
+              <!-- Highlight -->
+              <circle cx="275" cy="178" r="14" fill="white" opacity="0.4"/>
+              <!-- Scan rings -->
+              <circle cx="300" cy="200" r="110" fill="none" stroke="rgba(59,130,246,0.15)" stroke-width="1" stroke-dasharray="4 6"/>
+              <circle cx="300" cy="200" r="140" fill="none" stroke="rgba(192,57,43,0.1)" stroke-width="1"/>
+              <circle cx="300" cy="200" r="170" fill="none" stroke="rgba(59,130,246,0.08)" stroke-width="1" stroke-dasharray="8 12"/>
+              <!-- Crosshairs -->
+              <line x1="300" y1="60" x2="300" y2="120" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+              <line x1="300" y1="280" x2="300" y2="340" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+              <line x1="160" y1="200" x2="210" y2="200" stroke="rgba(192,57,43,0.3)" stroke-width="1"/>
+              <line x1="390" y1="200" x2="440" y2="200" stroke="rgba(192,57,43,0.3)" stroke-width="1"/>
+              <!-- Data points -->
+              <circle cx="220" cy="140" r="2" fill="#3b82f6" opacity="0.7"/>
+              <circle cx="380" cy="140" r="2" fill="#3b82f6" opacity="0.7"/>
+              <circle cx="200" cy="200" r="2" fill="#e74c3c" opacity="0.7"/>
+              <circle cx="400" cy="200" r="2" fill="#e74c3c" opacity="0.7"/>
+            </svg>
+            <div class="tech-img-overlay"></div>
+          </div>
+        </div>
+
+        <div class="fade-up">
+          <div class="section-tag">Core Technology</div>
+          <h2 class="section-title">All-New Oculometric Intelligence</h2>
+          <p class="section-sub">At the core of our platform is a fully patented oculometric assessment algorithm developed over years of federally funded research — engineered to quantify brain function through multidimensional eye-movement analytics.</p>
+
+          <div class="tech-features">
+            <div class="tech-feature">
+              <div class="feature-icon">👁</div>
+              <div>
+                <h4>Eye-Movement Analytics</h4>
+                <p>Tracks saccades, fixations, and smooth pursuit patterns to build a complete cognitive profile in minutes.</p>
+              </div>
+            </div>
+            <div class="tech-feature">
+              <div class="feature-icon">⚡</div>
+              <div>
+                <h4>Rapid Deployment</h4>
+                <p>Enables fast, deployable cognitive assessment in environments where neurological uncertainty carries real consequence.</p>
+              </div>
+            </div>
+            <div class="tech-feature">
+              <div class="feature-icon">🔒</div>
+              <div>
+                <h4>Secure Data Infrastructure</h4>
+                <p>Cognitive data is encrypted and accessible only through your organization's private CognitionIQ portal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section>
+    <div class="container">
+      <div style="text-align:center; margin-bottom: 1rem;" class="fade-up">
+        <div class="section-tag">Applications</div>
+        <h2 class="section-title">Designed for Real-World Scalability</h2>
+        <p class="section-sub" style="margin: 0 auto;">CognitionIQ's systems have the potential to support a wide range of high-stakes sectors.</p>
+      </div>
+
+      <div class="use-cases-grid">
+        <div class="use-case-card fade-up">
+          <div class="use-case-icon">🧠</div>
+          <h4>Memory Care</h4>
+        </div>
+        <div class="use-case-card fade-up">
+          <div class="use-case-icon">🏃</div>
+          <h4>Sports Medicine</h4>
+        </div>
+        <div class="use-case-card fade-up">
+          <div class="use-case-icon">🦺</div>
+          <h4>Occupational Safety</h4>
+        </div>
+        <div class="use-case-card fade-up">
+          <div class="use-case-icon">🎯</div>
+          <h4>Operational Readiness</h4>
+        </div>
+        <div class="use-case-card fade-up">
+          <div class="use-case-icon">🔬</div>
+          <h4>Research & Development</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Band -->
+  <div class="cta-band">
+    <p class="big">By replacing subjective symptom reporting with <strong>measurable cognitive data</strong>, CognitionIQ is advancing a more <strong>standardized</strong> and <strong>trusted</strong> approach to brain function assessment.</p>
+    <button class="btn-primary" data-page="contact">Work With Us →</button>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" fill="white"/>
+          </svg>
+          Cognition<span class="accent">IQ</span>
+        </div>
+        <p>Building the next generation of objective cognitive measurement systems for a healthier world.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a data-page="home">Home</a>
+        <a data-page="how-it-works">How It Works</a>
+        <a data-page="our-story">Our Story</a>
+        <a data-page="newsletter">Newsletter</a>
+        <a data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:info@cognition-iq.com">info@cognition-iq.com</a>
+        <a href="https://linkedin.com/company/cognitioniq" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CognitionIQ. All rights reserved.</span>
+      <span>cognition-iq.com</span>
+    </div>
+  </footer>
+</div>
+
+
+<!-- ══════════════════ HOW IT WORKS PAGE ══════════════════ -->
+<div class="page" id="how-it-works">
+  <div class="how-hero">
+    <div class="section-tag">Process</div>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1rem;">How It Works</h1>
+    <p style="max-width: 480px; margin: 0 auto; font-size: 1.05rem;">A streamlined, four-step process that delivers objective cognitive data — fast.</p>
+  </div>
+
+  <section class="steps-section">
+    <div class="container">
+      <div class="steps-grid">
+        <div class="step-card fade-up">
+          <div class="step-number">01</div>
+          <h3>Baseline Assessment</h3>
+          <p>Participants complete our 5–10 minute assessment using a VR headset, following visual targets with their eyes. No prior training required. The process is comfortable, non-invasive, and clinically rigorous.</p>
+        </div>
+        <div class="step-card fade-up">
+          <div class="step-number">02</div>
+          <h3>Secure Data Storage</h3>
+          <p>Their cognitive data is securely stored and immediately accessible through your organization's private CognitionIQ portal. All data is encrypted end-to-end and HIPAA-compliant.</p>
+        </div>
+        <div class="step-card fade-up">
+          <div class="step-number">03</div>
+          <h3>Post-Event Reassessment</h3>
+          <p>If a potential injury occurs, the participant retakes the same 5–10 minute assessment. The consistency of the protocol ensures results are directly comparable to the baseline.</p>
+        </div>
+        <div class="step-card fade-up">
+          <div class="step-number">04</div>
+          <h3>Algorithm-Driven Decision</h3>
+          <p>Our specialized algorithm compares both tests and delivers clear, data-backed return-to-play recommendations directly to your portal — removing guesswork from high-stakes decisions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="verdict">
+    <p class="verdict-text">The entire process is <em>standardized</em>, <em>objective</em>, and <em>fast</em>.</p>
+  </div>
+
+  <section style="background: var(--bg-2); border-top: 1px solid var(--border);">
+    <div class="container" style="text-align:center;">
+      <div class="section-tag fade-up">Technology</div>
+      <h2 class="section-title fade-up">Why Oculometrics?</h2>
+      <p class="section-sub fade-up" style="margin: 0 auto 3rem;">Eye movements are a direct window into brain function. Unlike self-reported symptoms, they cannot be faked or distorted by social pressure — making them the gold standard for objective cognitive assessment.</p>
+
+      <div style="display:grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem;" class="fade-up">
+        <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; text-align:left;">
+          <div style="color:var(--red-bright); font-size:1.5rem; margin-bottom:0.75rem;">⟳</div>
+          <h4 style="font-family:var(--font-display); font-size:1rem; color:var(--text); margin-bottom:0.5rem;">Repeatable</h4>
+          <p style="font-size:0.85rem; line-height:1.6;">Identical protocol every time means data is directly comparable across assessments and individuals.</p>
+        </div>
+        <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; text-align:left;">
+          <div style="color:var(--blue-bright); font-size:1.5rem; margin-bottom:0.75rem;">◉</div>
+          <h4 style="font-family:var(--font-display); font-size:1rem; color:var(--text); margin-bottom:0.5rem;">Objective</h4>
+          <p style="font-size:0.85rem; line-height:1.6;">Physiological data cannot be gamed. No subjective bias from athletes, patients, or clinicians.</p>
+        </div>
+        <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; text-align:left;">
+          <div style="color:var(--red-bright); font-size:1.5rem; margin-bottom:0.75rem;">⚡</div>
+          <h4 style="font-family:var(--font-display); font-size:1rem; color:var(--text); margin-bottom:0.5rem;">Fast</h4>
+          <p style="font-size:0.85rem; line-height:1.6;">Results delivered in minutes, not days — critical when neurological decisions can't wait.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" fill="white"/>
+          </svg>
+          Cognition<span class="accent">IQ</span>
+        </div>
+        <p>Building the next generation of objective cognitive measurement systems.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a data-page="home">Home</a>
+        <a data-page="how-it-works">How It Works</a>
+        <a data-page="our-story">Our Story</a>
+        <a data-page="newsletter">Newsletter</a>
+        <a data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:info@cognition-iq.com">info@cognition-iq.com</a>
+        <a href="https://linkedin.com/company/cognitioniq" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CognitionIQ. All rights reserved.</span>
+      <span>cognition-iq.com</span>
+    </div>
+  </footer>
+</div>
+
+
+<!-- ══════════════════ OUR STORY PAGE ══════════════════ -->
+<div class="page" id="our-story">
+  <div class="story-hero">
+    <div class="section-tag">About</div>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1rem;">Our Story</h1>
+    <p style="max-width: 460px; margin: 0 auto; font-size: 1.05rem;">Where the mission to revolutionize brain health began.</p>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="story-content fade-up">
+        <p class="lead">CognitionIQ was founded on a simple but urgent observation: the tools used to assess brain health have not kept pace with our understanding of the brain itself.</p>
+
+        <div class="story-divider"></div>
+
+        <p>For decades, cognitive assessment has relied on subjective reporting — asking patients how they feel, watching for behavioral cues, and interpreting inconsistent symptom checklists. In high-stakes environments like sports medicine, military readiness, and occupational safety, this approach is not just insufficient. It can be dangerous.</p>
+
+        <p>We set out to change that. Drawing on years of federally funded research in oculometrics — the scientific measurement of eye movements as a proxy for brain function — our team developed a proprietary algorithm capable of extracting meaningful cognitive data from a simple 5–10 minute eye-tracking assessment conducted through a standard VR headset.</p>
+
+        <div class="mission-block">
+          <h3>Our Mission</h3>
+          <p>To replace subjective symptom reporting with measurable cognitive data — making brain function assessment standardized, trusted, and accessible in every environment where neurological health matters.</p>
+        </div>
+
+        <p>The science is clear: eye movements are a direct window into neural function. They cannot be coached, suppressed, or faked. By building our platform on this foundation, we created a tool that is not only more accurate than traditional methods — it is fundamentally more honest.</p>
+
+        <p>Today, CognitionIQ is working with partners across memory care, sports medicine, occupational safety, military readiness, and clinical research — bringing objective cognitive measurement to the moments when it matters most.</p>
+
+        <div class="story-divider"></div>
+
+        <p>We are still early. The science of oculometric cognitive assessment is advancing rapidly, and so are we. If you believe that brain health deserves better tools, we'd love to hear from you.</p>
+
+        <div style="margin-top: 2rem;">
+          <button class="btn-primary" data-page="contact">Get in Touch →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" fill="white"/>
+          </svg>
+          Cognition<span class="accent">IQ</span>
+        </div>
+        <p>Building the next generation of objective cognitive measurement systems.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a data-page="home">Home</a>
+        <a data-page="how-it-works">How It Works</a>
+        <a data-page="our-story">Our Story</a>
+        <a data-page="newsletter">Newsletter</a>
+        <a data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:info@cognition-iq.com">info@cognition-iq.com</a>
+        <a href="https://linkedin.com/company/cognitioniq" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CognitionIQ. All rights reserved.</span>
+      <span>cognition-iq.com</span>
+    </div>
+  </footer>
+</div>
+
+
+<!-- ══════════════════ NEWSLETTER PAGE ══════════════════ -->
+<div class="page" id="newsletter">
+  <div class="newsletter-hero">
+    <div class="section-tag">Stay Informed</div>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 3.8rem); margin-bottom: 1rem; position:relative;">The CognitionIQ<br>Intelligence Brief</h1>
+    <p style="max-width: 440px; margin: 0 auto; font-size: 1.05rem; position:relative;">Cutting-edge research, company updates, and insights at the intersection of neuroscience, eye-tracking, and cognitive health.</p>
+  </div>
+
+  <section>
+    <div class="container" style="display:flex; justify-content:center;">
+      <div class="newsletter-wrap fade-up">
+        <div class="section-tag">Free Subscription</div>
+        <h2 style="font-size: 1.6rem; margin-bottom: 0.5rem; color: var(--text);">Join the Briefing</h2>
+        <p style="font-size: 0.9rem;">Sent monthly. No spam. Unsubscribe anytime.</p>
+
+        <div class="newsletter-perks">
+          <div class="perk"><div class="perk-dot"></div>Latest oculometric research and clinical findings</div>
+          <div class="perk"><div class="perk-dot"></div>CognitionIQ product and partnership updates</div>
+          <div class="perk"><div class="perk-dot"></div>Insights from brain health experts and practitioners</div>
+          <div class="perk"><div class="perk-dot"></div>Early access to beta programs and pilots</div>
+        </div>
+
+        <div id="newsletter-form-wrap">
+          <div class="newsletter-form" id="newsletter-form">
+            <input type="text" placeholder="Your name" id="nl-name" required />
+            <input type="email" placeholder="Your email address" id="nl-email" required />
+            <select style="width:100%; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:8px; padding:0.9rem 1.1rem; color:var(--text); font-family:var(--font-body); font-size:0.95rem; outline:none; margin-bottom:0.75rem;">
+              <option value="">I work in... (optional)</option>
+              <option>Sports Medicine / Athletic Training</option>
+              <option>Memory Care / Neurology</option>
+              <option>Military / Defense</option>
+              <option>Occupational Health & Safety</option>
+              <option>Research & Academia</option>
+              <option>Other</option>
+            </select>
+            <button class="form-submit" onclick="handleNewsletter(event)">Subscribe to the Brief →</button>
+          </div>
+          <div class="form-success" id="newsletter-success">
+            <div class="form-success-icon">✦</div>
+            <h4>You're on the list.</h4>
+            <p style="font-size:0.9rem;">Welcome to the CognitionIQ Intelligence Brief. Your first issue will arrive next month.</p>
+          </div>
+        </div>
+
+        <p class="newsletter-privacy">🔒 Your data stays with us. No selling, no spam — ever.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="past-issues">
+    <div class="container">
+      <div class="section-tag fade-up">Archive</div>
+      <h2 class="section-title fade-up">Past Issues</h2>
+      <p class="section-sub fade-up">A sample of what subscribers receive each month.</p>
+
+      <div class="issues-grid">
+        <div class="issue-card fade-up">
+          <div class="issue-tag">April 2025 · Issue #04</div>
+          <h4>Saccadic Latency as a Concussion Biomarker: What the Latest Research Shows</h4>
+          <p>A deep dive into new studies from the NCAA and military sports programs on reaction-time eye metrics.</p>
+        </div>
+        <div class="issue-card fade-up">
+          <div class="issue-tag">March 2025 · Issue #03</div>
+          <h4>Why Symptom Checklists Are Failing Athletes — and What Replaces Them</h4>
+          <p>Examining the evidence gap in current return-to-play protocols and the case for physiological measurement.</p>
+        </div>
+        <div class="issue-card fade-up">
+          <div class="issue-tag">February 2025 · Issue #02</div>
+          <h4>The Oculometric Advantage: Eye Movements and the Brain's Hidden State</h4>
+          <p>An introduction to what your eyes reveal about cognition — and why clinicians are paying attention.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" fill="white"/>
+          </svg>
+          Cognition<span class="accent">IQ</span>
+        </div>
+        <p>Building the next generation of objective cognitive measurement systems.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a data-page="home">Home</a>
+        <a data-page="how-it-works">How It Works</a>
+        <a data-page="our-story">Our Story</a>
+        <a data-page="newsletter">Newsletter</a>
+        <a data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:info@cognition-iq.com">info@cognition-iq.com</a>
+        <a href="https://linkedin.com/company/cognitioniq" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CognitionIQ. All rights reserved.</span>
+      <span>cognition-iq.com</span>
+    </div>
+  </footer>
+</div>
+
+
+<!-- ══════════════════ CONTACT PAGE ══════════════════ -->
+<div class="page" id="contact">
+  <div class="contact-hero">
+    <div class="section-tag">Get in Touch</div>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1rem;">Connect With Us</h1>
+    <p style="max-width: 440px; margin: 0 auto; font-size: 1.05rem;">Whether you're a potential partner, researcher, or curious about our technology — we'd love to hear from you.</p>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <h3>Let's Talk</h3>
+          <p>We're actively exploring partnerships across sports medicine, memory care, military and occupational health. Reach out to start the conversation.</p>
+
+          <a class="contact-link" href="mailto:info@cognition-iq.com">
+            <div class="contact-link-icon">✉</div>
+            <div class="contact-link-text">
+              <small>Email</small>
+              <span>info@cognition-iq.com</span>
+            </div>
+          </a>
+
+          <a class="contact-link" href="https://linkedin.com/company/cognitioniq" target="_blank">
+            <div class="contact-link-icon">in</div>
+            <div class="contact-link-text">
+              <small>LinkedIn</small>
+              <span>cognitioniq</span>
+            </div>
+          </a>
+
+          <div style="margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+            <p style="font-size: 0.85rem; margin-bottom: 1rem;">Also want to stay updated on our research and company news?</p>
+            <button class="btn-secondary" data-page="newsletter" style="font-size:0.85rem; padding:0.6rem 1.2rem;">Subscribe to our Newsletter →</button>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-up">
+          <h3>Send a Message</h3>
+          <p>We respond within 1–2 business days.</p>
+
+          <div id="contact-form">
+            <div class="form-group">
+              <label>Name *</label>
+              <input type="text" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label>Email Address *</label>
+              <input type="email" placeholder="you@organization.com" required />
+            </div>
+            <div class="form-group">
+              <label>Organization</label>
+              <input type="text" placeholder="Your organization or institution" />
+            </div>
+            <div class="form-group">
+              <label>Area of Interest</label>
+              <select>
+                <option value="">Select one...</option>
+                <option>Sports Medicine / Athletic Training</option>
+                <option>Memory Care / Neurology</option>
+                <option>Military / Defense</option>
+                <option>Occupational Health & Safety</option>
+                <option>Research Partnership</option>
+                <option>Investment / Business</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea placeholder="Tell us about your project, organization, or question..."></textarea>
+            </div>
+            <button class="form-submit" onclick="handleContact(event)">Send Message →</button>
+          </div>
+
+          <div class="form-success" id="contact-success">
+            <div class="form-success-icon">✓</div>
+            <h4>Message received.</h4>
+            <p>Thank you for reaching out. We'll be in touch within 1–2 business days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#c0392b" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="7" stroke="#1a56db" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" fill="white"/>
+          </svg>
+          Cognition<span class="accent">IQ</span>
+        </div>
+        <p>Building the next generation of objective cognitive measurement systems.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a data-page="home">Home</a>
+        <a data-page="how-it-works">How It Works</a>
+        <a data-page="our-story">Our Story</a>
+        <a data-page="newsletter">Newsletter</a>
+        <a data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:info@cognition-iq.com">info@cognition-iq.com</a>
+        <a href="https://linkedin.com/company/cognitioniq" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CognitionIQ. All rights reserved.</span>
+      <span>cognition-iq.com</span>
+    </div>
+  </footer>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+function handleNewsletter(e) {
+  e.preventDefault();
+  const btn = e.target;
+  btn.textContent = 'Subscribing...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('newsletter-form').style.display = 'none';
+    document.getElementById('newsletter-success').classList.add('visible');
+  }, 1000);
+}
+
+function handleContact(e) {
+  e.preventDefault();
+  const btn = e.target;
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('contact-success').classList.add('visible');
+  }, 1200);
+}
+</script>
+</body>
+</html>
